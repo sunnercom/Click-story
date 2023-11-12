@@ -55,3 +55,14 @@ a:focus {
 .wrapper {
     overflow: hidden;
 }
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+ }
+
+.navbar,
+.navbar-expand-lg {
+    padding-top: 0;
+    padding-bottom: 0;
+}
