@@ -18,6 +18,7 @@
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 999;
     box-shadow: 0px 7px 50px 5px #D7E4FF;
     color: var(--dark-grey);
     font-size: 14px;
@@ -69,6 +70,10 @@
     margin-top: 32px;
 }
 
+.date {
+    margin-top: 10px;
+}
+
 .news .news-card {
     margin-bottom: 32px;
     padding-right: 30px;
@@ -111,117 +116,67 @@
     margin-bottom: 64px;
 }
 
-.two {
-    margin-top: 100px;
+/* news-2.hmtl css */
+.main-two {
+    margin-top: 180px;
+    margin-bottom: 152px;
 }
 
-
-/* form-2_html's-css start */
-.form-two {
-    text-align: center;
-}
-
-.form-two .r-title {
-    color: var(--blue);
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.form-two .row .col-6>input {
-    width: 370px;
-    padding: 16px;
-    border-radius: 5px;
-    border: 1px solid var(--light-grey);
-}
-
-.form-two .end-content {
-    text-align: center;
-    margin-top: 34px;
-    margin-bottom: 32px;
-}
-
-.form-two .submit-inp {
-    background: var(--gradient);
-    box-shadow: 0px 4px 10px 0px #CEE0FF;
-    color: var(--dark-grey);
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 5px;
-    padding: 12px 18px;
-    border: none;
-}
-
-.form-two p {
-    margin-top: 88px;
-    margin-left: 30px;
-    margin-bottom: 16px;
-}
-.col-4 .bg{
-    margin-top: 50%;
-}
-.nav-menu{
-    margin-top: 30%;
-}
-.news img{
-    width: 100%;
-}
-
-.nav-menu a{
-    color: var(--grey, #686868);
-/* small text */
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
-.malumot{
- margin-top: 30px;
-}
- .malumot h4{
-    width: 470px;
-    padding-bottom: 16px;
-color: var(--blue, #456DBB);
-font-size: 24px;
-font-weight: 700;
-line-height: 120%; 
-
-}
-.malumot span{
-    color: var(--grey, #686868);
-font-size: 14px;
-font-weight: 400;
-}
-.malumot p{
+.big-text {
     width: 469px;
-    padding-top: 32px;
-color: var(--dark-grey, #333);
-font-size: 16px;
-font-weight: 400;
-line-height: 140%; /* 22.4px */
-}
-.main-btn img{
-padding: 8px;
-align-items: flex-end;
-gap: 10px;
-border-radius: 5px;
-background: var(--light-blue-gradient);
-}
-.main-btn span{
-    color: var(--blue);
-text-align: center;
-/* very small text */
-font-family: Inter;
-font-size: 10px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-
 }
 
-.main-2 .bg {
-
+.main-two .img-6 {
+    background: url(../images/rectanglr.png);
+    background-repeat: no-repeat;
 }
+
+.image {
+    margin-left: 182px;
+}
+
+.main-two .card .lock {
+    margin-left: 70px;
+}
+
+.main-two .card .dress-img {
+    margin: 0 auto;
+}
+
+.main-two .card {
+    width: 100px;
+    height: 120px;
+    border: 1px solid #D0D0D0;
+}
+
+.main-two .cards {
+    width: 208px;
+}
+
+.modal-dialog .btn-close {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.modal-dialog {
+    width: 356px;
+    height: 173px;
+}
+
+.modal-footer button {
+    margin-right: 60px;
+}
+
+.main-two .cards .para {
+    width: 100px;
+    border: 1px solid #D0D0D0;
+    margin-top: 4px;
+}
+
+
 
 /* media query start */
 @media screen and (min-width: 1440px) {
@@ -300,12 +255,17 @@ line-height: normal;
     margin-left: 100px;
     font-size: 16px;
     /* line-height: 140%; */
-    
+
 }
 
 /* register-modal */
-.register-modal_dialog {
+.register-dialog {
+    background-color: #FFF;
     width: 830px;
     height: 553px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 500px;
+    /* border: 1px solid var(--light-grey); */
 }
 
