@@ -6,6 +6,7 @@
     --white: #FFF;
     --light-blue-gradient: linear-gradient(180deg, #D7E4FF 0%, rgba(255, 255, 255, 0.00) 100%);
     --light-grey: #D0D0D0;
+    --grey: #686868;
 }
 
 /* header start */
@@ -54,6 +55,10 @@
 .news .first-content {
     margin-top: 156px;
     margin-bottom: 36px;
+}
+
+.news-title {
+    color: #456DBB;
 }
 
 .news .first-content select {
@@ -185,7 +190,149 @@
     padding-bottom: 3px;
 }
 
+/* authors html */
+.header-title {
+    margin-bottom: 2rem;
+    margin-left: 134px;
+}
 
+.main-three {
+    margin-top: 150px;
+    margin-bottom: 63px;
+}
+
+.postcards {
+    margin-right: 248px;
+}
+
+.postcard {
+    background-color: #EBF2FF;
+    width: 504px;
+    height: 136px;
+    padding: 24px;
+    margin-bottom: 8px;
+}
+
+.postcard-title h5 {
+    color: var(--dark-grey);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.postcard-head {
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.postcard-content {
+    align-items: center;
+    gap: 19px;
+}
+
+.postcard-content .postcard-analytics span {
+    margin-bottom: 7px;
+    margin-left: 30px;
+    color: var(--dark-grey);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.postcard-content .postcard-analytics p {
+    color: var(--dark-grey);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.postcards .postcards-end_link {
+    border-bottom: 1px dashed;
+}
+
+.formy {
+    position: relative;
+    padding: 24px;
+    background-color: #EBF2FF;
+    height: 256px;
+    width: 418px;
+}
+
+.formy .form-title {
+    margin-bottom: 24px;
+}
+
+.formy p {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.formy .search {
+    width: 370px;
+    height: 49px;
+    padding: 16px;
+    padding-left: 48px;
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+}
+
+.formy .search-icon {
+    position: absolute;
+    left: 40px;
+    top: 83px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #FFF;
+    color: var(--dark-grey);
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: flex;
+    width: 370px;
+    height: 49px;
+    padding: 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.formy .select-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
 
 /* media query start */
 @media screen and (min-width: 1440px) {
@@ -269,24 +416,32 @@
 
 .register-dialog {
     border-radius: 5px;
-    padding: 35px;
+    padding: 32px;
 }
 
 .modal-content-s {
-    width: 830px;
+    width: 1235px;
 }
 
 .modal-content-s input {
     width: 370px;
+    padding: 16px;
     border-radius: 5px;
-    border: 1px solid var(--light-grey, #D0D0D0);
+    border: 1px solid var(--light-grey);
     margin-right: 30px;
+}
+
+.modal-content-s p {
+    margin-top: 36px;
 }
 
 .submit-input {
     border-radius: 5px;
     background: var(--gradient);
     box-shadow: 0px 4px 10px 0px #CEE0FF;
+    padding: 12px 18px;
+    margin-left: 55px;
+    margin-top: 32px;
 }
 
 /*second.html's modal*/
@@ -295,7 +450,7 @@
 }
 
 .md-one .modal-footer a {
- margin-right: 40px;  
+    margin-right: 40px;
 }
 
 .md-two .modal-header .modal-title {
