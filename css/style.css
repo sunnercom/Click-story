@@ -413,14 +413,18 @@
 }
 
 /* register-modal */
-
 .register-dialog {
     border-radius: 5px;
     padding: 32px;
+    margin: 0 auto;
+}
+
+.register {
+    width: 900px;
 }
 
 .modal-content-s {
-    width: 1235px;
+    width: 900px;
 }
 
 .modal-content-s input {
@@ -429,10 +433,17 @@
     border-radius: 5px;
     border: 1px solid var(--light-grey);
     margin-right: 30px;
+    margin-bottom: 24px;
+}
+
+.modal-content-s .end-content {
+    margin-top: 36px;
+    text-align: center;
+    margin-left: 0;
 }
 
 .modal-content-s p {
-    margin-top: 36px;
+    margin-bottom: 16px;
 }
 
 .submit-input {
@@ -440,8 +451,88 @@
     background: var(--gradient);
     box-shadow: 0px 4px 10px 0px #CEE0FF;
     padding: 12px 18px;
-    margin-left: 55px;
+    margin-left: 270px;
     margin-top: 32px;
+}
+
+.register-dialog .modal-titles {
+    margin-left: 350px;
+}
+
+/* forgot modal */
+.forgot-dialog {
+    width: 434px;
+}
+
+.forgot-content {
+    width: 434px;
+    padding: 32px;
+    border-radius: 5px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 0px 15px 0px #CEE0FF;
+    text-align: center;
+}
+
+.forgot-modal-body .forgot-contact p {
+    color: var(--dark-grey);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.forgot-modal-body .forgot-contact input {
+    width: 370px;
+    padding: 16px;
+    border-radius: 5px;
+    border: 1px solid var(--light-grey, #D0D0D0);
+    margin-right: 32px;
+}
+
+.forgot-dialog .modal-footer .forgot-btn {
+    margin-left: 10px;
+    margin-bottom: 32px;
+}
+
+.forgot-dialog .modal-footer .btn-link {
+    margin-right: 43px;
+}
+
+.modal-footer button {
+    margin-right: 20px;
+}
+
+/* forgot-modal-two */
+.modal-content-two {
+    width: 430px;
+    height: 407px;
+    padding: 32px;
+}
+
+.modal-titles_s {
+    color: #456DBB;
+    text-align: center;
+}
+
+.forgot-numbers {
+    text-align: center;
+}
+
+.forgot-numbers input {
+    width: 48px;
+    height: 64px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 16px;
+}
+
+.forgot-footer .btn-got {
+    margin-left: 50px;
+} 
+
+
+.forgots-footer .btn {
+    margin-left: 50px;
 }
 
 /*second.html's modal*/
