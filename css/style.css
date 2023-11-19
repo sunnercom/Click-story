@@ -61,6 +61,11 @@
     color: #456DBB;
 }
 
+.hide-btn {
+    width: 409px;
+    height: 210px;
+}
+
 .news .first-content select {
     border: none;
     outline: none;
@@ -103,8 +108,13 @@
 .news .container .span {
     display: flex;
     justify-content: center;
+    gap: 18px;
     margin-top: 64px;
     margin-bottom: 64px;
+}
+
+.news .container .span span {
+    cursor: pointer;
 }
 
 /* footer start */
@@ -139,6 +149,7 @@
 .main-two .img-6 {
     background: url(../images/rectanglr.png);
     background-repeat: no-repeat;
+    margin-top: 40px;
 }
 
 .image {
@@ -332,6 +343,58 @@
     position: absolute;
     top: 12px;
     right: 12px;
+}
+
+/* parea.html */
+.main-tabs {
+    margin-top: 153px;
+    margin-bottom: 60px;
+}
+
+.main-tabs .main-title_s {
+    margin-bottom: 64px;
+}
+
+.main-tabs .cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.main-tabs .line {
+    margin-left: 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.title-card {
+    margin-top: 32px;
+}
+
+.card {
+    margin-top: 24px;
+    border: none;
+    position: relative;
+}
+
+.card-body .card-title {
+    text-align: center;
+}
+
+.card-body .card-text {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.card-body .card-text img {
+    margin-right: 8px;
+}
+
+.main-tabs .lock-img {
+    position: absolute;
+    right: 25px;
+    top: 25px;
 }
 
 /* media query start */
@@ -528,7 +591,7 @@
 
 .forgot-footer .btn-got {
     margin-left: 50px;
-} 
+}
 
 
 .forgots-footer .btn {

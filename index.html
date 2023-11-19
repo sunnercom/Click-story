@@ -38,7 +38,7 @@
                     <a class="nav-link" href="authors.html" target="_blank">Авторы</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#!">Каталог</a>
+                    <a class="nav-link" href="parea.html" target="_blank">Каталог</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -62,7 +62,9 @@
             <a href="#!"><h3 class="news-title-s">Новости</h3></a>
             <div class="row">
               <div class="news-card col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12">
-                <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                <button type="button" class="hide-btn" data-bs-toggle="modal" data-bs-target="#plusModal">
+                  <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                </button>
                 <div class="news-content">
                   <span class="date">18.05.2023</span>
                   <h4 class="news-title">
@@ -74,7 +76,9 @@
                 </div>
               </div>
               <div class="news-card col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12">
-                <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                <button type="button" class="hide-btn" data-bs-toggle="modal" data-bs-target="#plusModal">
+                  <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                </button>
                 <div class="news-content">
                   <span class="date">18.05.2023</span>
                   <h4 class="news-title">
@@ -86,7 +90,9 @@
                 </div>
               </div>
               <div class="news-card col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12">
-                <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                <button type="button" class="hide-btn" data-bs-toggle="modal" data-bs-target="#plusModal">
+                  <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                </button>
                 <div class="news-content">
                   <span class="date">18.05.2023</span>
                   <h4 class="news-title">
@@ -100,7 +106,9 @@
             </div>
             <div class="row mt-6">
               <div class="news-card col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12">
-                <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                <button type="button" class="hide-btn" data-bs-toggle="modal" data-bs-target="#plusModal">
+                  <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                </button>
                 <div class="news-content">
                   <span class="date">18.05.2023</span>
                   <h4 class="news-title">
@@ -112,7 +120,9 @@
                 </div>
               </div>
               <div class="news-card col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12">
-                <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                <button type="button" class="hide-btn" data-bs-toggle="modal" data-bs-target="#plusModal">
+                  <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                </button>
                 <div class="news-content">
                   <span class="date">18.05.2023</span>
                   <h4 class="news-title">
@@ -124,7 +134,9 @@
                 </div>
               </div>
               <div class="news-card col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-12">
-                <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                <button type="button" class="hide-btn" data-bs-toggle="modal" data-bs-target="#plusModal">
+                  <img class="news-img" src="images/news-img1.png" alt="news-img" width="100%">
+                </button>
                 <div class="news-content">
                   <span class="date">18.05.2023</span>
                   <h4 class="news-title">
@@ -137,7 +149,17 @@
               </div>
             </div>
             <span class="span">
-            <img class="span" src="images/number-img.png" alt="number-img">  
+            <p class="span">
+             <span>←</span>
+              <span class="text-primary">1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>...</span>
+              <span>46</span>
+              <span>47</span>
+              <span>48</span>
+              <span>-></span>
+            </p>
             </span>
         </div>
       </section>
@@ -343,6 +365,25 @@
       </div>
       <div class="forgots-footer">
         <button type="button" class="btn btn-primary">Сменить пароль</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- plus Modal -->
+<div class="modal fade" id="plusModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
