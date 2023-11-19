@@ -23,7 +23,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-              <a class="navbar-brand" href="#!">
+              <a class="navbar-brand" href="index.html">
                 <img src="images/icons/logo.svg" alt="logo" width="149" height="22">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,24 @@
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#authModal">Войти</button>
+                  <div class="header-links">
+                    <button class="btn" type="button">Создать историю</button>
+                  <div class="header-link">
+                    <img src="images/icons/book-icon.svg" alt="book-icon">
+                  <span>Избранное</span>
+                  </div>
+                  <div class="header-link">
+                    <img src="images/icons/bell-icon.svg" alt="bell-icon">
+                  <span>15</span>
+                  </div>
+                  <div class="header-link">
+                    <img src="images/icons/diamond-ore-icon.svg" alt="diamond-ore-icon">
+                  <span>250</span>
+                  </div>
+                 <a href="#!">
+                  <img src="images/icons/man-icon.svg" alt="man-icon">
+                 </a>
+                  </div>
                 </form>
               </div>
             </div>
@@ -69,7 +86,7 @@
            новым костюмом. Яркий, сказочный и в блестках!
         </p>
 
-        <div class="cards d-flex justify-content-between">
+        <div class="cards d-flex justify-content-between mt-6">
           <div class="card">
             <a href="#!" data-bs-toggle="modal" data-bs-target="#MyModal"><img class="lock" src="images/icons/lock-icon.svg" alt="lock-icon"  width="24px" height="24px"></a>
             <img class="dress-img" src="images/dress-img.png" alt="dress-img" width="53px" height="79px">
@@ -147,7 +164,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="MyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered md-one">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">У вас не хватает кварцев</h1>
@@ -162,7 +179,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered md-two">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Хотите купить?</h5>
